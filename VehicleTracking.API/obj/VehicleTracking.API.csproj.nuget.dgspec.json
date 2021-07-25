@@ -1,0 +1,346 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.API\\VehicleTracking.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.API\\VehicleTracking.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.API\\VehicleTracking.API.csproj",
+        "projectName": "VehicleTracking.API",
+        "projectPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.API\\VehicleTracking.API.csproj",
+        "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-pro": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Core\\VehicleTracking.Core.csproj": {
+                "projectPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Core\\VehicleTracking.Core.csproj"
+              },
+              "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Data\\VehicleTracking.Data.csproj": {
+                "projectPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Data\\VehicleTracking.Data.csproj"
+              },
+              "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Services\\VehicleTracking.Services.csproj": {
+                "projectPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Services\\VehicleTracking.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Core\\VehicleTracking.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Core\\VehicleTracking.Core.csproj",
+        "projectName": "VehicleTracking.Core",
+        "projectPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Core\\VehicleTracking.Core.csproj",
+        "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-pro": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Data\\VehicleTracking.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Data\\VehicleTracking.Data.csproj",
+        "projectName": "VehicleTracking.Data",
+        "projectPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Data\\VehicleTracking.Data.csproj",
+        "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-pro": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Core\\VehicleTracking.Core.csproj": {
+                "projectPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Core\\VehicleTracking.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Services\\VehicleTracking.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Services\\VehicleTracking.Services.csproj",
+        "projectName": "VehicleTracking.Services",
+        "projectPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Services\\VehicleTracking.Services.csproj",
+        "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-pro": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Core\\VehicleTracking.Core.csproj": {
+                "projectPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Core\\VehicleTracking.Core.csproj"
+              },
+              "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Data\\VehicleTracking.Data.csproj": {
+                "projectPath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Data\\VehicleTracking.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.13.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "PagedList": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "PagedList.Mvc": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
