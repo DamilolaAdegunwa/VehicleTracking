@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using VehicleTracking.Core.Entities;
+using VehicleTracking.Core.Model;
 using VehicleTracking.Data.Context;
 using VehicleTracking.Services.Services;
 namespace VehicleTracking.API.Controllers
@@ -46,7 +47,7 @@ namespace VehicleTracking.API.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        public async Task<IServiceResponse<bool>> RegisterVehicle(Vehicle vehicle)
+        public async Task<IServiceResponse<bool>> RegisterVehicle(RegisterVehicleRequest vehicle)
         {
             return await HandleApiOperationAsync(async () => {
                 var response = new ServiceResponse<bool>();
@@ -57,7 +58,7 @@ namespace VehicleTracking.API.Controllers
         }
         [HttpPost]
         [Route("[action]")]
-        public async Task<IServiceResponse<bool>> RecordPosition(VehiclePosition vehiclePosition)
+        public async Task<IServiceResponse<bool>> RecordPosition(RecordPositionRequest vehiclePosition)
         {
             return await HandleApiOperationAsync(async () => {
                 var response = new ServiceResponse<bool>();
@@ -69,10 +70,10 @@ namespace VehicleTracking.API.Controllers
 
         [HttpGet]
         [Route("[action]")]
-        public async Task<IServiceResponse<VehiclePosition>> RetrieveTheCurrentPositionOfaVehicle(long VehicleId)
+        public async Task<IServiceResponse<PositionOfaVehicleResponse>> RetrieveTheCurrentPositionOfaVehicle(long VehicleId)
         {
             return await HandleApiOperationAsync(async () => {
-                var response = new ServiceResponse<VehiclePosition>();
+                var response = new ServiceResponse<PositionOfaVehicleResponse>();
                 var data = await _vehicleService.RetrieveTheCurrentPositionOfaVehicle(VehicleId);
                 response.Object = data;
                 return response;
@@ -80,11 +81,11 @@ namespace VehicleTracking.API.Controllers
         }
         [HttpGet]
         [Route("[action]")]
-        public async Task<IServiceResponse<IEnumerable<VehiclePosition>>> RetrieveThePositionsOfaVehicleDuringaCertainTime(long VehicleId, DateTimeOffset? startDate, DateTimeOffset? endDate)
+        public async Task<IServiceResponse<IEnumerable<PositionOfaVehicleResponse>>> RetrieveThePositionsOfaVehicleDuringaCertainTime(long VehicleId, DateTimeOffset? startDate, DateTimeOffset? endDate, int page = 1, int size = int.MaxValue)
         {
             return await HandleApiOperationAsync(async () => {
-                var response = new ServiceResponse<IEnumerable<VehiclePosition>>();
-                var data = await _vehicleService.RetrieveThePositionsOfaVehicleDuringaCertainTime(VehicleId, startDate, endDate);
+                var response = new ServiceResponse<IEnumerable<PositionOfaVehicleResponse>>();
+                var data = await _vehicleService.RetrieveThePositionsOfaVehicleDuringaCertainTime(VehicleId, startDate, endDate,false, page, size);
                 response.Object = data;
                 return response;
             });
@@ -93,7 +94,7 @@ namespace VehicleTracking.API.Controllers
         #region vehicle fuel
         [HttpPost]
         [Route("[action]")]
-        public async Task<IServiceResponse<bool>> RecordFuel(VehicleFuel vehicleFuel)
+        public async Task<IServiceResponse<bool>> RecordFuel(RecordFuelRequest vehicleFuel)
         {
             return await HandleApiOperationAsync(async () => {
                 var response = new ServiceResponse<bool>();
@@ -105,10 +106,10 @@ namespace VehicleTracking.API.Controllers
 
         [HttpGet]
         [Route("[action]")]
-        public async Task<IServiceResponse<VehicleFuel>> RetrieveCurrentDataAboutVehicleFuel(long VehicleId)
+        public async Task<IServiceResponse<DataAboutVehicleFuelResponse>> RetrieveCurrentDataAboutVehicleFuel(long VehicleId)
         {
             return await HandleApiOperationAsync(async () => {
-                var response = new ServiceResponse<VehicleFuel>();
+                var response = new ServiceResponse<DataAboutVehicleFuelResponse>();
                 var data = await _vehicleService.RetrieveCurrentDataAboutVehicleFuel(VehicleId);
                 response.Object = data;
                 return response;
@@ -116,11 +117,11 @@ namespace VehicleTracking.API.Controllers
         }
         [HttpGet]
         [Route("[action]")]
-        public async Task<IServiceResponse<IEnumerable<VehicleFuel>>> RetrieveVehicleFuelDataDuringaCertainTime(long VehicleId, DateTimeOffset? startDate, DateTimeOffset? endDate)
+        public async Task<IServiceResponse<IEnumerable<DataAboutVehicleFuelResponse>>> RetrieveVehicleFuelDataDuringaCertainTime(long VehicleId, DateTimeOffset? startDate, DateTimeOffset? endDate, int page = 1, int size = int.MaxValue)
         {
             return await HandleApiOperationAsync(async () => {
-                var response = new ServiceResponse<IEnumerable<VehicleFuel>>();
-                var data = await _vehicleService.RetrieveVehicleFuelDataDuringaCertainTime(VehicleId,startDate,endDate);
+                var response = new ServiceResponse<IEnumerable<DataAboutVehicleFuelResponse>>();
+                var data = await _vehicleService.RetrieveVehicleFuelDataDuringaCertainTime(VehicleId,startDate,endDate,false, page, size);
                 response.Object = data;
                 return response;
             });
@@ -130,7 +131,7 @@ namespace VehicleTracking.API.Controllers
         #region vehicle speed
         [HttpPost]
         [Route("[action]")]
-        public async Task<IServiceResponse<bool>> RecordSpeed(VehicleSpeed vehicleSpeed)
+        public async Task<IServiceResponse<bool>> RecordSpeed(RecordSpeedRequest vehicleSpeed)
         {
             return await HandleApiOperationAsync(async () => {
                 var response = new ServiceResponse<bool>();
@@ -142,10 +143,10 @@ namespace VehicleTracking.API.Controllers
 
         [HttpGet]
         [Route("[action]")]
-        public async Task<IServiceResponse<VehicleSpeed>> RetrieveCurrentDataAboutVehicleSpeed(long VehicleId)
+        public async Task<IServiceResponse<DataAboutVehicleSpeedResponse>> RetrieveCurrentDataAboutVehicleSpeed(long VehicleId)
         {
             return await HandleApiOperationAsync(async () => {
-                var response = new ServiceResponse<VehicleSpeed>();
+                var response = new ServiceResponse<DataAboutVehicleSpeedResponse>();
                 var data = await _vehicleService.RetrieveCurrentDataAboutVehicleSpeed(VehicleId);
                 response.Object = data;
                 return response;
@@ -153,11 +154,11 @@ namespace VehicleTracking.API.Controllers
         }
         [HttpGet]
         [Route("[action]")]
-        public async Task<IServiceResponse<IEnumerable<VehicleSpeed>>> RetrieveVehicleSpeedDuringaCertainTime(long VehicleId, DateTimeOffset? startDate, DateTimeOffset? endDate)
+        public async Task<IServiceResponse<IEnumerable<DataAboutVehicleSpeedResponse>>> RetrieveVehicleSpeedDuringaCertainTime(long VehicleId, DateTimeOffset? startDate, DateTimeOffset? endDate, int page = 1, int size = int.MaxValue)
         {
             return await HandleApiOperationAsync(async () => {
-                var response = new ServiceResponse<IEnumerable<VehicleSpeed>>();
-                var data = await _vehicleService.RetrieveVehicleSpeedDuringaCertainTime(VehicleId, startDate, endDate);
+                var response = new ServiceResponse<IEnumerable<DataAboutVehicleSpeedResponse>>();
+                var data = await _vehicleService.RetrieveVehicleSpeedDuringaCertainTime(VehicleId, startDate, endDate, false, page, size);
                 response.Object = data;
                 return response;
             });

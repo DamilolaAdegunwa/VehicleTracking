@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace VehicleTracking.Core.Model
 {
-    public class AppConfig
+    public class RecordFuelRequest
     {
-        public string GoogleApiKey { get; set; }
+        public decimal Fuel { get; set; }//in gallons, litres etc.
+        public long VehicleId { get; set; }
     }
 }

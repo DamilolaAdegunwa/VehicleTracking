@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace VehicleTracking.Core.Model
 {
-    public class AppConfig
+    public class RecordSpeedRequest
     {
-        public string GoogleApiKey { get; set; }
+        public decimal Speed { get; set; }
+        public long VehicleId { get; set; }
     }
 }

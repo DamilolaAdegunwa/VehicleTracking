@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a1PhfclcxiZasnjk3XGRA+IMPGnvLAaNN7DCqsQoS8ajVubLdmPXatIK6zg9Sd7r84PDQnyyewai3iRfR2pWCg==",
+  "dgSpecHash": "8L9mM5Hjbv/tqoME+7D+Lp5Wpua9MjvcV7wxxp5aHJGyniaKQtcVOIZPsFDWEFfupk3j2NAqswkDsIm06DVOVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.API\\VehicleTracking.API.csproj",
   "expectedPackageFiles": [
@@ -62,6 +62,7 @@
     "C:\\Users\\damil\\.nuget\\packages\\pagedlist\\1.17.0\\pagedlist.1.17.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\pagedlist.mvc\\4.5.0\\pagedlist.mvc.4.5.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\portable.bouncycastle\\1.8.10\\portable.bouncycastle.1.8.10.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.4\\swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",

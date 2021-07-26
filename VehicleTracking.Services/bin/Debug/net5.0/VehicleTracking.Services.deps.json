@@ -13,6 +13,7 @@
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "PagedList": "1.17.0",
           "PagedList.Mvc": "4.5.0",
+          "RestSharp": "106.12.0",
           "VehicleTracking.Core": "1.0.0",
           "VehicleTracking.Data": "1.0.0",
           "log4net": "2.0.12",
@@ -594,6 +595,14 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
             "assemblyVersion": "1.8.10.0",
             "fileVersion": "1.8.10.1"
+          }
+        }
+      },
+      "RestSharp/106.12.0": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.12.0.0",
+            "fileVersion": "106.12.0.0"
           }
         }
       },
@@ -1650,6 +1659,13 @@
       "sha512": "sha512-XLhjNAwuVB9ynwn11l5K44eyozh8q6gFseTrlnLNttejimglX7+F9+vxh60LPjvA/DAt6fUdS43N3ah8K6eaWg==",
       "path": "portable.bouncycastle/1.8.10",
       "hashPath": "portable.bouncycastle.1.8.10.nupkg.sha512"
+    },
+    "RestSharp/106.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-irOsQHe5nTJB0BKxGQnTX1dsgCPl5dLTxvL7gbl98JiFPiHMN4wpFyUG/66ZpaFCsIrPKh6XwozWXlwYe9JwYQ==",
+      "path": "restsharp/106.12.0",
+      "hashPath": "restsharp.106.12.0.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

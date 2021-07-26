@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace VehicleTracking.Core.Model
 {
-    public class AppConfig
+    public class RegisterVehicleRequest
     {
-        public string GoogleApiKey { get; set; }
+        public string RegistrationNumber { get; set; }
     }
 }

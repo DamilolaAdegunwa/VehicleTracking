@@ -35,7 +35,7 @@ namespace VehicleTracking.API
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("DefaultConnection")),ServiceLifetime.Scoped,ServiceLifetime.Scoped);
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             //services.AddDefaultIdentity<IdentityUser<long>>(options => options.SignIn.RequireConfirmedAccount = true)
@@ -163,6 +163,7 @@ namespace VehicleTracking.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //var x = new VehicleTracking.Services.Services.VehicleService().GetReverseGeocode(40.714224m, -73.961452m);
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

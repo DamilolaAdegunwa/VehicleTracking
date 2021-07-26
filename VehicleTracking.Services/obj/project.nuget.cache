@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M3ee3t+064A6KWHDPoFf0w4NST7RGozkd1TpNlo3SltdFWu0y5lTmgeajlgI+2SFr6rw9+XS9IQwddxem2igdA==",
+  "dgSpecHash": "o45wdM6Ahxx8EbLO/Vp5gizJieNhduGgY0L8nn0rTWNB5VB0C6mY0TY7FnJob4fGzmAjT2UKO8GbkodbPwZNjg==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.Services\\VehicleTracking.Services.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\damil\\.nuget\\packages\\pagedlist\\1.17.0\\pagedlist.1.17.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\pagedlist.mvc\\4.5.0\\pagedlist.mvc.4.5.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\portable.bouncycastle\\1.8.10\\portable.bouncycastle.1.8.10.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
