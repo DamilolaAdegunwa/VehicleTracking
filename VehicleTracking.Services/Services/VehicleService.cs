@@ -71,6 +71,8 @@ namespace VehicleTracking.Services.Services
 
         public async Task<bool> RegisterVehicle(RegisterVehicleRequest vehicleModel, bool allowanonymous = false)
         {
+            int retry = 0; int retries = 2;//in the case of a failure, retry 2 other times
+            retry:
             var username = _serviceHelper.GetCurrentUserEmail();
             try
             {
@@ -81,11 +83,13 @@ namespace VehicleTracking.Services.Services
                 {
                     if (string.IsNullOrWhiteSpace(username))
                     {
+                        retry = 2;//don't retry
                         throw new Exception("Please input a username!");
                     }
 
                     if (user == null)
                     {
+                        retry = 2;//don't retry
                         throw new Exception("Unauthorized access! Please login");
                     }
                 }
@@ -117,6 +121,10 @@ namespace VehicleTracking.Services.Services
             catch (Exception ex)
             {
                 log.Error($"{ex.Message} :: username {username} :: {MethodBase.GetCurrentMethod().Name} :: {ex.StackTrace} ");
+                if(retry < retries)
+                {
+                    goto retry;
+                }
                 //return false;
                 throw ex;
             }
