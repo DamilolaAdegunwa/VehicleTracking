@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8L9mM5Hjbv/tqoME+7D+Lp5Wpua9MjvcV7wxxp5aHJGyniaKQtcVOIZPsFDWEFfupk3j2NAqswkDsIm06DVOVg==",
+  "dgSpecHash": "RDNiuy5vFmj0NDViYO+qB+CzB2rq1GYasemRm3pEBdOUmwsxLGdfshOEnug2QfYknsagrgZNv7K33/E6p8eXrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\source\\repos\\VehicleTracking\\VehicleTracking.API\\VehicleTracking.API.csproj",
   "expectedPackageFiles": [
@@ -132,7 +132,8 @@
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.7\\microsoft.netcore.app.host.win-x64.5.0.7.nupkg.sha512"
   ],
   "logs": [
     {
