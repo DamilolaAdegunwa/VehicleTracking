@@ -16,7 +16,6 @@ C:\Users\damil\source\repos\Old_VehicleTracking\VehicleTracking.Core\obj\Debug\n
 C:\Users\damil\source\repos\Old_VehicleTracking\VehicleTracking.Core\obj\Debug\net5.0\VehicleTracking.Core.pdb
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Core\bin\Debug\net5.0\VehicleTracking.Core.deps.json
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Core\bin\Debug\net5.0\VehicleTracking.Core.dll
-C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Core\bin\Debug\net5.0\ref\VehicleTracking.Core.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Core\bin\Debug\net5.0\VehicleTracking.Core.pdb
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Core\obj\Debug\net5.0\VehicleTracking.Core.csproj.AssemblyReference.cache
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Core\obj\Debug\net5.0\VehicleTracking.Core.GeneratedMSBuildEditorConfig.editorconfig
@@ -26,3 +25,4 @@ C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Core\obj\Debug\net5.
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Core\obj\Debug\net5.0\VehicleTracking.Core.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Core\obj\Debug\net5.0\ref\VehicleTracking.Core.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Core\obj\Debug\net5.0\VehicleTracking.Core.pdb
+C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Core\obj\Debug\net5.0\refint\VehicleTracking.Core.dll

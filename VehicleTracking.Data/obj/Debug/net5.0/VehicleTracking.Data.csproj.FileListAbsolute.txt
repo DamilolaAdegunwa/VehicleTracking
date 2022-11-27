@@ -19,7 +19,6 @@ C:\Users\damil\source\repos\Old_VehicleTracking\VehicleTracking.Data\obj\Debug\n
 C:\Users\damil\source\repos\Old_VehicleTracking\VehicleTracking.Data\obj\Debug\net5.0\VehicleTracking.Data.pdb
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Data\bin\Debug\net5.0\VehicleTracking.Data.deps.json
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Data\bin\Debug\net5.0\VehicleTracking.Data.dll
-C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Data\bin\Debug\net5.0\ref\VehicleTracking.Data.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Data\bin\Debug\net5.0\VehicleTracking.Data.pdb
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Data\bin\Debug\net5.0\VehicleTracking.Core.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Data\bin\Debug\net5.0\VehicleTracking.Core.pdb
@@ -32,3 +31,4 @@ C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Data\obj\Debug\net5.
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Data\obj\Debug\net5.0\VehicleTracking.Data.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Data\obj\Debug\net5.0\ref\VehicleTracking.Data.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Data\obj\Debug\net5.0\VehicleTracking.Data.pdb
+C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Data\obj\Debug\net5.0\refint\VehicleTracking.Data.dll

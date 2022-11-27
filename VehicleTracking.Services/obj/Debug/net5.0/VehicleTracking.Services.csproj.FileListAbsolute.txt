@@ -19,7 +19,6 @@ C:\Users\damil\source\repos\Old_VehicleTracking\VehicleTracking.Services\obj\Deb
 C:\Users\damil\source\repos\Old_VehicleTracking\VehicleTracking.Services\obj\Debug\net5.0\VehicleTracking.Services.pdb
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Services\bin\Debug\net5.0\VehicleTracking.Services.deps.json
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Services\bin\Debug\net5.0\VehicleTracking.Services.dll
-C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Services\bin\Debug\net5.0\ref\VehicleTracking.Services.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Services\bin\Debug\net5.0\VehicleTracking.Services.pdb
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Services\bin\Debug\net5.0\Microsoft.AspNetCore.Hosting.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Services\bin\Debug\net5.0\Microsoft.AspNetCore.Http.dll
@@ -36,3 +35,4 @@ C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Services\obj\Debug\n
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Services\obj\Debug\net5.0\VehicleTracking.Services.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Services\obj\Debug\net5.0\ref\VehicleTracking.Services.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Services\obj\Debug\net5.0\VehicleTracking.Services.pdb
+C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.Services\obj\Debug\net5.0\refint\VehicleTracking.Services.dll

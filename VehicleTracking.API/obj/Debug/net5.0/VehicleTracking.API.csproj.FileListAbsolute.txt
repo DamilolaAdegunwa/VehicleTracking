@@ -116,7 +116,6 @@ C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\bin\Debug\net5.0
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\bin\Debug\net5.0\VehicleTracking.API.runtimeconfig.json
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\bin\Debug\net5.0\VehicleTracking.API.runtimeconfig.dev.json
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\bin\Debug\net5.0\VehicleTracking.API.dll
-C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\bin\Debug\net5.0\ref\VehicleTracking.API.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\bin\Debug\net5.0\VehicleTracking.API.pdb
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\bin\Debug\net5.0\VehicleTracking.API.Views.dll
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\bin\Debug\net5.0\VehicleTracking.API.Views.pdb
@@ -217,3 +216,9 @@ C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\obj\Debug\net5.0
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\obj\Debug\net5.0\VehicleTracking.API.pdb
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\obj\Debug\net5.0\VehicleTracking.API.genruntimeconfig.cache
 C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\bin\Debug\net5.0\RestSharp.dll
+C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\obj\Debug\net5.0\staticwebassets\VehicleTracking.API.StaticWebAssets.Pack.cache
+C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\obj\Debug\net5.0\staticwebassets\msbuild.VehicleTracking.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\obj\Debug\net5.0\staticwebassets\msbuild.build.VehicleTracking.API.props
+C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.VehicleTracking.API.props
+C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.VehicleTracking.API.props
+C:\Users\damil\source\repos\VehicleTracking\VehicleTracking.API\obj\Debug\net5.0\refint\VehicleTracking.API.dll

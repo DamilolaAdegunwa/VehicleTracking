@@ -29,8 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VehicleTracking.Core\VehicleTracking.Core.csproj" />
-    <ProjectReference Include="..\VehicleTracking.Data\VehicleTracking.Data.csproj" />
     <ProjectReference Include="..\VehicleTracking.Services\VehicleTracking.Services.csproj" />
   </ItemGroup>
 
