@@ -25,7 +25,7 @@ namespace VehicleTracking.Services.Services
     public class AccountService : IAccountService
     {
         //private readonly ILogger<AccountService> log;
-       // private readonly SignInManager<User> _signInManager;
+        //private readonly SignInManager<User> _signInManager;
         private readonly UserManager<User> _userManager;
         private readonly RoleManager<Role> _roleManager;
         private readonly ApplicationDbContext _applicationDbContext;

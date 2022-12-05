@@ -229,8 +229,15 @@ namespace VehicleTracking.Services.Services
                     VehicleId = b.VehicleId,
                     
                 }).FirstOrDefault();
-                data.Address = GetReverseGeocode(data.Latitude, data.Latitude).results[0].formatted_address;
 
+				try
+				{
+					data.Address = GetReverseGeocode(data.Latitude, data.Longitude).results[0].formatted_address;
+				}
+				catch (Exception ex)
+				{
+                    log.Error($"could not get the address: {ex.Message}");
+				}
                 return data;
             }
             catch (Exception ex)
